@@ -1,0 +1,31 @@
+criar uma tabela de log compartilhada
+    Nomear tabela
+    Criar campos
+        xxx_FILIAL  - String
+        xxx_ID        - String
+        xxx_ROTINA  - String
+        xxx_DATA    - Data
+        xxx_HORA    - String
+        xxx_DESC    - String
+        xxx_OBS        - MEMO
+        xxx_TIPO    - String
+        xxx_STATUS  - String
+        xxx_JSONREC - MEMO
+    Criar os índices
+        Índice de ID + Tipo
+        Índice de Rotina + Tipo
+        Índice de data + Rotina + ID
+    Salvar os ajustes no configurador
+    
+    Criar um usuário
+        Acesso
+        Editar o menu SIGAATF para ter a rotina AbreTable no menu Miscelânea > Customizações (criar pasta customizações)
+            Função de usuário AbreTable
+            Pesquisar como editar menus protheus
+            
+    Abrir rotina AbreTable rodando o Protheus
+        Compilar fonte
+        Rodar rotina para nova tabela
+        Criar um registro novo
+
+TABELA CRIADA FOI A SZ0
